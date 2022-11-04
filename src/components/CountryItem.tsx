@@ -13,7 +13,7 @@ export const CountryItem = ({ country }: IProps) => {
       <img
         className="list__picture col-1 p-2"
         src={country.flag}
-        alt="flag"
+        alt={`flag of ${country.name}`}
         width="85"
         height="75"
       />

@@ -11,7 +11,7 @@ interface IProps {
 export const Badge = ({ label, value, color }: IProps) => {
   console.log({ label });
   return (
-    <span className={`badge bg-${color} align-text-bottom  col-1 p-2`}>
+    <span className={`badge bg-${color}  col-2 p-2`}>
       {label}: {value}
     </span>
   );

@@ -9,10 +9,10 @@ interface IProps {
 export const CountryList = ({ countries }: IProps) => {
   return (
     <ul className="list-group">
-      {" "}
       {countries.map((country) => (
         <CountryItem country={country} key={country.name} />
       ))}
     </ul>
   );
 };
+
