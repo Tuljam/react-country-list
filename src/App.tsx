@@ -1,6 +1,6 @@
 import { CountryList } from "./components/CountryList";
-import { Color } from "./components/types/colors";
-import { ICountry } from "./components/types/type";
+import { Color } from "./types/colors";
+import { ICountry } from "./types/types";
 import countries from "./country-data.json";
 import { transformCountries } from "./mappers/transformCountries";
 

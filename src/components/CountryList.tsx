@@ -1,6 +1,6 @@
 import React from "react";
 import { CountryItem } from "./CountryItem";
-import { ICountry } from "./types/type";
+import { ICountry } from "../types/types";
 
 interface IProps {
   countries: ICountry[];

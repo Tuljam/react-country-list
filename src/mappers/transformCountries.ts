@@ -1,4 +1,4 @@
-import { ICountry, ICountryAPI } from "../components/types/type";
+import { ICountry, ICountryAPI } from "../types/types";
 
 export const transformCountries = (countries: ICountryAPI[]): ICountry[] => {
   return countries.map((country) => {

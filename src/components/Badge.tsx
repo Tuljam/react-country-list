@@ -1,6 +1,5 @@
-import React from "react";
-import { Color } from "./types/colors";
-import { BadgeLabel } from "./types/labelTypes";
+import { Color } from "../types/colors";
+import { BadgeLabel } from "../types/labelBadge";
 
 interface IProps {
   label: BadgeLabel;
@@ -9,7 +8,6 @@ interface IProps {
 }
 
 export const Badge = ({ label, value, color }: IProps) => {
-  console.log({ label });
   return (
     <span className={`badge bg-${color}  col-2 p-2`}>
       {label}: {value}
